@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital&&family=Allison&family=Caprasimo&display=swap');
+
+.font-family-all{
+  font-family: 'Caprasimo', cursive;
+  font-size: 50px;
+}
+
+.font-family-text{
+  font-family: 'Agdasima', sans-serif;
+}
+
+section span {
+  font-size: 20px;
+  display: flex;
+  text-align: justify;
+  padding-left:50px;
+  padding-right:50px;
+  font-size: 30px;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.justify-text{
+  text-align: justify;
+  font-size: 35px;
+}
+
+.border-radius-imgs{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.circle-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-div-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  display: none;
+}
+
+
+@media (min-width: 900px) {
+
+  .paragraph{
+    padding: 40px;
+    font-size: 30px;
+  }
+
+  .calendar-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calendar{
+    width: 500px;
+    margin-top: 30px;
+  }
+
+  .mapa{
+    width: 50%;
+  }
+  .formulario {
+    display: flex;
+  }
+
+  .form-mapa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .circle-profile{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  
+} 

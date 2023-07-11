@@ -1,0 +1,81 @@
+.findme{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width:100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:#5A8FC5;
+}
+
+.footer .containerFotter
+{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.containerFotter .boxFotter
+{
+  width:70px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.containerFotter .twetter
+{
+  background: #1da1f2;
+}
+.containerFotter .twetter a
+{
+  font-size: 25px;
+  color: #fff;
+}
+
+.containerFotter .facebook
+{
+  background: #1877f2;
+}
+.containerFotter .facebook a{
+font-size: 25px;
+color: #fff;
+}
+
+.containerFotter .youtube
+{
+  background: #ff0000;
+}
+
+.containerFotter .youtube a
+{
+  font-size:25px;
+  color: #fff;
+}
+
+.containerFotter .instagram {
+  background: #f56040;
+}
+
+.containerFotter .instagram a
+{
+  font-size:25px;
+  color: #fff;
+}
+footer div p {
+ 
+  color: #fff;
+}

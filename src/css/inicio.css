@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Allison&family=Caprasimo&display=swap');
+
+.page{
+  overflow: auto;
+  height: 100%;
+  
+}
+.textTitle{
+  display: block;
+  
+}
+
+.textTitle h1{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Caprasimo', cursive;
+  font-size: 50px;
+}
+
+.font-family-all{
+  font-family: 'Caprasimo', cursive;
+}
+
+.font-family-text{
+  font-family: 'Agdasima', sans-serif;
+}
+
+.textTitle h2{
+  width: 100%;
+  text-align: center;
+  font-family: 'Agdasima', sans-serif;
+  font-size: 35px;
+}
+
+.imagesFront {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagesFront img{
+  padding: 30px;
+  width: 80%;
+  object-fit: cover; 
+  margin-bottom: 10px;
+  /* z-index: -999; */
+}
+
+.bg-pink{
+  padding: 30px;
+}
+
+.image_3{
+  display:none;
+}
+
+div div h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imageMenu{
+  margin-left: -999px;
+  display: none;
+}
+
+.image-text{
+  display: none;
+}
+
+.contact-m{
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #afd0ff ;
+  border-radius: 10px;
+  border-color: #afd0ff;
+  
+}
+.contact-m form {
+  padding: 5px;
+  
+}
+
+.formDataDiv{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-2{
+  visibility: hidden;
+  display: none;
+}
+.bg-pink{
+  background-color: #EAC7C7;
+}
+
+.formDataDiv{
+  padding: 10px;
+
+}
+
+@media (min-width: 990px) {
+  .imagesFront{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .image-2{
+    visibility: visible;
+    display: flex;
+  }
+
+  .imagesFront img {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+
+  }
+
+  .bg-pink{
+    background-color: #EAC7C7;
+  }
+
+  .divMedium{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .accordion{
+    width: 35%;
+    margin-left: 30px;
+  }
+
+  .imageMenu{
+    margin-left: 0px;
+    display: flex;
+  }
+
+  .imageMenu img{
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+  }
+  .image_3{
+    display:flex;
+  }
+
+  .formDataDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .formDataDiv .image_3 img{
+    width: 370px;
+    height: 400px;
+    position: absolute;
+    z-index: -99;
+  }
+
+  .borderSpan{
+    background-color: #fff;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    text-align: center;
+    height: 170px;
+    text-justify: center;
+    justify-content: center;
+    padding: 30px;
+    width: 260px;
+    margin-top: 200px;
+  }
+
+  .formDataContainer{
+    width: auto;
+  }
+
+}
+
+

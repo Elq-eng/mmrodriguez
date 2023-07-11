@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Allison&family=Caprasimo&display=swap');
+
+.font-family-all{
+  font-family: 'Caprasimo', cursive;
+}
+
+.font-family-text{
+  font-family: 'Agdasima', sans-serif;
+}
+
+.page{
+  overflow: auto;
+  height: 100%;
+}
+
+.title{
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-title{
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+
+
+.title p{
+  padding: 60px;
+  font-family: 'Agdasima' ;
+  font-size: 35px;
+  text-align: justify;
+}
+
+.box-middle{
+  padding:3px;
+  position: relative;
+  height: auto;
+}
+
+.box-middle .bg-gray {
+  width: 100%;
+  margin-top: 110px;
+  background-color: #9f9fa3;
+  height: 520px;
+  display: flex;
+  position: absolute;
+  z-index: -99;
+}
+
+.box-middle .bg-planes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+
+
+.box-middle .bg-planes .image-card {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box-middle .bg-planes .image-card h1 {
+  font-size: 30px;
+  width: 280px;
+  border-color: black ;
+  border-width: 1px;
+  border-style: outset;
+  background-color: white;
+}
+
+.box-middle .bg-planes .image-card img{
+  object-fit: cover;
+  width: 280px;
+  height: 280px;
+  
+}
+
+
+.box-middle .bg-planes .circle-setup{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin-top: 140px;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.box-middle .bg-planes .circle-setup img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+}
+
+.box-middle .bg-planes .circle-setup h1{
+  font-size: 30px;
+}
+
+.box-middle .hidden-resp {
+  display: none;
+}
+
+.page .title-inte h1 {
+  margin-top: 100px;
+}
+
+.form-bg{
+  padding: 20px;
+}
+
+.page .form-bg form{
+  background: #000;
+  padding: 50px;
+}
+
+.page .form-bg form h1{
+ 
+  font-size: 40px;
+}
+
+.page .form-bg .hidden-resp {
+  display: none;
+}
+
+
+@media (min-width: 900px) {
+  .box-middle{
+    display: flex; 
+    justify-content: center;
+  }
+  .box-middle .bg-planes {
+    padding-left:60px;
+    padding-right:60px;
+
+    
+  }
+
+  .box-middle .hidden-resp {
+    display: flex;
+  }
+  .page .form-bg {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+  }
+  .page .form-bg .hidden-resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-right: 600px;
+    margin-top: 180px;
+  }
+  .page .form-bg .hidden-resp img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .page .form-bg form{
+    position: relative;
+    z-index: 999;
+    width: 550px;
+    margin-left: 280px;
+    
+  }
+}
