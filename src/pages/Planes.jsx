@@ -91,7 +91,7 @@ export const Planes = () => {
               value={name}
               onChange={ onInputChange }
               className="form-control font-family-text"
-              style={{'font-size':'20px'}}
+              style={{'fontSize':'20px'}}
               id="exampleInputEmail1"
               placeholder="Nombre"
               aria-describedby="emailHelp"
@@ -117,7 +117,7 @@ export const Planes = () => {
               value={motivo}
               onChange={ onInputChange }
               className="form-control font-family-text"
-              style={{'font-size':'30px'}}
+              style={{'fontSize':'30px'}}
               id=""
               cols="20"
               rows="5"

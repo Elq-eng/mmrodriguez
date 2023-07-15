@@ -27,10 +27,8 @@
   font-size: 50px;
 }
 
-
-
 .title p{
-  padding: 60px;
+  padding: 10px;
   font-family: 'Agdasima' ;
   font-size: 35px;
   text-align: justify;
@@ -54,6 +52,7 @@
 
 .box-middle .bg-planes {
   display: flex;
+  justify-content:center ;
   align-items: center;
   flex-direction: column;  
 }
@@ -64,6 +63,7 @@
   width: 200px;
   height: 200px;
   display: flex;
+  align-items: center;
   flex-direction: column;
 
 }
@@ -91,7 +91,8 @@
   display: flex;
   margin-top: 140px;
   flex-direction: column;
-  margin-left: 70px;
+  /* align-items: baselin/e; */
+  /* margin-left: 70px; */
 }
 
 .box-middle .bg-planes .circle-setup img{
